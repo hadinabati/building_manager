@@ -8,4 +8,10 @@ export default class URLS {
   building_list() {
     return this.main + 'building/list'
   }
+  apartements_list() {
+    return this.main + 'apaterment/list'
+  }
+  create_apartements() {
+    return this.main + 'ap'
+  }
 }
