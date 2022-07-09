@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <div class="col-5 " style="margin-right: 2rem">
+    <div class="col-md-5 col-xs-12" style="">
       <q-card class="my-card">
         <q-card-section>
           <h5>اطلاعات اولیه ساختمان</h5>
@@ -18,7 +18,7 @@
       </q-card>
     </div>
     <div class="col-1"></div>
-    <div class="col-5">
+    <div class="col-md-5 col-xs-12">
       <q-card class="my-card">
         <q-card-section>
           <h5>اطلاعات اولیه واحد ها</h5>
@@ -147,7 +147,6 @@ export default {
       axios.get(address.building_list()).then(value => {
         if (value.data.done === true) {
           searching_data.list_building = value.data.data
-          console.log(searching_data.list_building)
         }
       })
     }

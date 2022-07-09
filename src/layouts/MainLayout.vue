@@ -33,7 +33,7 @@
             class="text"
           >
             <q-item class="text">
-              <router-link class="router" to="Dashboard"> پنل مدیریتی </router-link>
+              <router-link class="router" to="/Dashboard"> پنل مدیریتی </router-link>
             </q-item>
           </q-expansion-item>
         </q-list>
@@ -45,7 +45,7 @@
             class="text۲"
           >
             <q-item class="text">
-              <router-link class="router" to="Dashboard"> پنل شخصی </router-link>
+              <router-link class="router" to="/Dashboard"> پنل شخصی </router-link>
             </q-item>
           </q-expansion-item>
         </q-list>
@@ -61,9 +61,11 @@
 
 <script>
 import {ref} from 'vue'
-
+import info from '../pages/AdminDashboard/info'
 export default {
-
+components:{
+  info
+},
   data() {
     const rightDrawerOpen = ref(false)
     return {

@@ -14,4 +14,27 @@ export default class URLS {
   create_apartements() {
     return this.main + 'ap'
   }
+  create_money(){
+    return this.main + 'create_money'
+  }
+
+  create_money_list(){
+    return this.main + 'create_money/list'
+  }
+
+  check_name(){
+    return this.main + 'check_name'
+  }
+  insert_factor_to_db(){
+    return this.main + 'create_factor'
+  }
+  factor_list(){
+    return this.main + 'get_factor_list'
+  }
+  factor_apartenet_month(){
+    return this.main + 'show_apartement_factors'
+  }
 }
+
+
+

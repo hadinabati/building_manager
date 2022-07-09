@@ -5,7 +5,7 @@ import out_money from "pages/AdminDashboard/out_money/out_money";
 import incoming_page from "pages/AdminDashboard/incoming/incoming_page";
 import sandbox from "pages/AdminDashboard/sandBox/sandbox";
 import Dashboard from "pages/user_Dashboard/Dashboard";
-
+import info from "../pages/AdminDashboard/info"
 
 const routes = [
   {
@@ -14,7 +14,7 @@ const routes = [
     children: [
       {
         path: '',
-        component: Login
+        component: info
       },
       {
         path: 'Dashboard',

@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-  <div class="col-4">
+  <div class="col-md-4 col-xs-12">
     <q-card class="my-card">
       <q-card-section>
         <h5>اطلاعات اولیه ساختمان</h5>
@@ -10,7 +10,7 @@
       </q-card-section>
     </q-card>
   </div>
-    <div class="col-4">
+    <div class="col-md-4 col-xs-12">
       <q-card class="my-card">
         <q-card-section>
           <h5>هزینه ها </h5>
@@ -20,8 +20,7 @@
         </q-card-section>
       </q-card>
     </div>
-
-    <div class="col-4">
+    <div class="col-md-4 col-xs-12">
       <q-card class="my-card">
         <q-card-section>
           <h5>شارژ</h5>
@@ -31,8 +30,7 @@
         </q-card-section>
       </q-card>
     </div>
-
-    <div class="col-4">
+    <div class="col-md-4 col-xs-12">
       <q-card class="my-card">
         <q-card-section>
           <h5>صندوق</h5>
